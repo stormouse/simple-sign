@@ -1,0 +1,9 @@
+
+config = {
+    'username' : 'stormouse@gmail.com',
+    'user_id' : '6807313',
+    'template_id' : '53d55092-6cd6-4b8b-8d02-449e4420ca96',
+    'access_token' : 'eyJ0eXAiOiJNVCIsImFsZyI6IlJTMjU2Iiwia2lkIjoiNjgxODVmZjEtNGU1MS00Y2U5LWFmMWMtNjg5ODEyMjAzMzE3In0.AQkAAAABAAUABwCAyNOC5zDWSAgAgAj3kCox1kgCABeE0UfnISVHmNgAkRkjIskVAAEAAAAYAAEAAAAFAAAADQAkAAAAZjBmMjdmMGUtODU3ZC00YTcxLWE0ZGEtMzJjZWNhZTNhOTc4EgABAAAACwAAAGludGVyYWN0aXZlMAAABQqB5zDWSA.U3YSVsrLsFdTl2syYspJ9I3-SWLG_MMl9SySEWbSU2eaFmUOh9lrUxmJlFI3JOW9w8UFtABxYjYy1fnouljBb4tRoi7uF3axiYVb-_8QEQMC4WsFxB_twwtMTAVAhLdZtisGblxN9gLyqBT7nYhghXuwXSvEysn39UEWof-N4fW1Qs3muEdoVz2ADFwQTw-jEbYDpDdIu_nWzcRbOgKCBYqM5AB3to_V7JEvyW4XsdV1IsBsx4aRbJ81LVe_ozOkOKNJxET2F7WbIOTMX5AgStqaVRCXZAiKBZX-nLkAKlebdq5iLKW_TwExMRrbR1f6W-CYzZRcLkIdyoC0rCnkAg',
+    'integrator_key' : '1f5eef3b-7e41-4282-b720-b44717fffc18',
+    'secret_key' : '6a8e7ee7-b839-41f1-9eaf-1afbd2015f61',
+}

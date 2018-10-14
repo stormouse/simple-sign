@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+
+<mat-tab-group [selectedIndex]="selectedTab">
+    <mat-tab label="upload"> <app-upload (changeTabEvent)="setPage($event)"></app-upload> </mat-tab>
+    <mat-tab label="review"> <app-matdash></app-matdash> </mat-tab>
+</mat-tab-group>
+
