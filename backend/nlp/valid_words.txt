@@ -1,0 +1,1 @@
+student,disable,parking,mailbox,roommate,pet,alcohol,cigarette,dental,cancer,surgery,examination,waive
