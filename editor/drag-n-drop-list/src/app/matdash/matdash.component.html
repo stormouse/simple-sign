@@ -1,0 +1,29 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Review your contract</h1>
+  <form class="example-form">
+  <mat-grid-list cols="4" rowHeight="350px">
+    <mat-grid-tile *ngFor="let title of titles; let i = index; trackBy: trackByFn;" [colspan]="3" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            <label>TITLE</label><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <mat-form-field class="example-full-width">
+                <input matInput type="text" [(ngModel)]="titles[i]" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div style="text-align: left">{{contents[i]}}</div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <div *ngIf="urlStr | async">
+    <a href="{{urlStr}}">{{urlStr}}</a>
+  </div>
+  <div *ngIf="!urlStr | async">
+    <button mat-button (click)="submitReview()">Submit</button>
+  </div>
+  <ng4-loading-spinner></ng4-loading-spinner>
+</form>
+</div>
